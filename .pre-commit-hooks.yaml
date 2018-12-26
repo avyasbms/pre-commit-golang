@@ -64,6 +64,6 @@
 -   id: docker-build
     name: 'docker-build'
     entry: run-docker-build.sh
-    files: '\.go$'
+    files: '\Dockerfile'
     language: 'script'
     description: "Runs `docker build`, requires docker"
